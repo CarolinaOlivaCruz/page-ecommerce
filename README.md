@@ -1,2 +1,2 @@
 # simple-project
-Básico html e css
+Contém HTML e CSS
