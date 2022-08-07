@@ -136,3 +136,58 @@ body {}
 .container-pitchbar ul li p {
     color: #ffffff;
 }
+
+.container-main .banner-main img {
+    height: 300px;
+    width: 100%;
+}
+
+.container-main h1 {
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 70px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 30px;
+    color: #803f7f;
+}
+
+.container-main .container-cards {
+
+}
+.container-main .container-cards ul {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin: 0 auto;
+    
+}
+.container-main .container-cards li {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+.container-main .container-cards ul li img{
+    height: 200px;
+    width: 250px;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+.container-main .container-cards ul li p {
+    font-size: 20px;
+}
+.container-main .container-cards ul li button{
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 80px;
+    background-color: #f7b8c5;
+    color: #803f7f;
+    font-weight: bold;
+    font-size: 15px;
+    border: 2px solid #f8a1b3;
+    border-radius: 5px;
+}
