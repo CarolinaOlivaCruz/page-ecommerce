@@ -1,0 +1,11 @@
+.menu-topo {
+    display: flex;
+}
+
+.barra-menu ul {
+    display: flex;
+}
+.barra-menu li{
+    
+    padding: 50px;
+}
