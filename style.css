@@ -1,11 +1,138 @@
-.menu-topo {
+body {}
+
+.container {
+    max-width: 100%;
+    background-color: #fcf5f8;
+}
+
+.container .menu-top {
+    width: 1200px;
+    height: 93px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.container .menu-top #img-logo {
+    height: 80px;
+}
+
+.container .menu-top .menu-pesquisar {
     display: flex;
 }
 
-.barra-menu ul {
-    display: flex;
+.container .menu-top input {
+    padding: 10px;
+    width: 200px;
+    border: #803f7f solid 1px;
+    border-radius: 5px 0 0 5px;
 }
-.barra-menu li{
-    
-    padding: 50px;
+
+.container .menu-top input::placeholder {
+    color: #803f7f;
+}
+
+.container .menu-top button {
+    padding: 8px;
+    border: none;
+    border-radius: 0 5px 5px 0;
+    background-color: #803f7f;
+}
+
+.container .menu-top .menu-contato {
+    display: flex;
+    gap: 10px;
+    color: #803f7f;
+}
+
+.container .menu-top .menu-usuario {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    color: #803f7f;
+}
+
+.container .menu-top img {
+    height: 20px;
+}
+
+.container .menu-top p {
+    font-size: 18px;
+}
+
+.container .menu-top ul {
+    background-color: #f8c5cf;
+}
+
+.container .menu-top #img-sacola {
+    height: 50px;
+}
+
+.container-barra {
+    display: flex;
+    max-width: 100%;
+    height: 35px;
+    color: #803f7f;
+    background-color: #fdaab6;
+}
+
+.container-barra .barra-menu {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.container-barra .barra-menu ul {
+    max-width: 100%;
+    display: flex;
+    gap: 60px;
+    padding: 8px;
+    justify-content: space-between;
+}
+
+.container-barra .barra-menu li {
+    font-size: 17px;
+    font-weight: bold
+}
+
+.container-pitchbar {
+    max-width: 100%;
+    height: 45px;
+    background-color: #803f7f;
+}
+
+.container-pitchbar ul {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    padding: 2px 0;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.container-pitchbar ul li {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.container-pitchbar ul li img {
+    height: 40px;
+}
+
+.container-pitchbar ul li .pitchbar-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.container-pitchbar ul li h2 {
+    color: #f7b8c5;
+    font-size: 18px;
+    font-weight: bold
+}
+
+.container-pitchbar ul li p {
+    color: #ffffff;
 }
