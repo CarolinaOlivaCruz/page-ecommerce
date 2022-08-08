@@ -1,4 +1,3 @@
-body {}
 
 .container {
     max-width: 100%;
@@ -24,7 +23,7 @@ body {}
 
 .container .menu-top input {
     padding: 10px;
-    width: 200px;
+    width: 350px;
     border: #803f7f solid 1px;
     border-radius: 5px 0 0 5px;
 }
@@ -53,16 +52,35 @@ body {}
     color: #803f7f;
 }
 
+.menu-usuario .menu-lista {
+    display: none;
+    position: absolute;
+    z-index: 1;
+}
+
+.menu-usuario:hover .menu-lista {
+    display: block;
+}
+
+.menu-usuario .menu-lista ul {
+    background-color: #fcf5f8;
+    margin-top: 220px;
+    border: 1px solid #803f7f;
+    border-radius: 3px;
+}
+
+.menu-usuario .menu-lista li {
+    border: solid #803f7f  1px;
+    
+    padding: 10px;
+}
+
 .container .menu-top img {
     height: 20px;
 }
 
 .container .menu-top p {
     font-size: 18px;
-}
-
-.container .menu-top ul {
-    background-color: #f8c5cf;
 }
 
 .container .menu-top #img-sacola {
@@ -152,9 +170,8 @@ body {}
     color: #803f7f;
 }
 
-.container-main .container-cards {
+.container-main .container-cards {}
 
-}
 .container-main .container-cards ul {
     display: flex;
     justify-content: space-evenly;
@@ -162,15 +179,17 @@ body {}
     flex-wrap: wrap;
     max-width: 1200px;
     margin: 0 auto;
-    
+
 }
+
 .container-main .container-cards li {
     display: flex;
     flex-direction: column;
     align-items: center;
     gap: 20px;
 }
-.container-main .container-cards ul li img{
+
+.container-main .container-cards ul li img {
     height: 200px;
     width: 250px;
     object-fit: cover;
@@ -180,7 +199,8 @@ body {}
 .container-main .container-cards ul li p {
     font-size: 20px;
 }
-.container-main .container-cards ul li button{
+
+.container-main .container-cards ul li button {
     width: 100%;
     padding: 10px;
     margin-bottom: 80px;
